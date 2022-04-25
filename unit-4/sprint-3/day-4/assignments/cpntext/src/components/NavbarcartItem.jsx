@@ -1,5 +1,6 @@
-import React ,{useContext} from 'react';
-import  {CartContext}  from '../context/CartProvider';
+import React  from 'react';
+import { useContext } from 'react';
+import  CartContext  from '../context/CartProvider';
  const NavbarcartItem = () => {
     const {value}= useContext{CartContext};
   return (

@@ -1,8 +1,9 @@
 import React from 'react'
-
+import NavbarcartItem from './NavbarcartItem';
  const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>Navbar:<NavbarcartItem/>
+    </div>
   )
 }
 export default Navbar;
