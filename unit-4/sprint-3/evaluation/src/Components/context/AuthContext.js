@@ -8,8 +8,6 @@ const AuthContextProvider = ({ children }) => {
 
   const handleLogin = (email, password) => {
     //  api request to reqres.in for the token
-   
-
   };
   const handleLogout = () => {
     //  set token back to " " once logged out

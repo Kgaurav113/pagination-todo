@@ -8,10 +8,7 @@ import { AuthContext } from "../context/AuthContext";
 import { Form } from "./EditBookData";
 
 // add input styling
-export const Input = styled.input`
- 
-`;
-
+export const Input = styled.input``;
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -46,7 +43,7 @@ export const Login = () => {
           type="password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <Input value = "Login" type={"submit"} data-testid="login-form-submit" />
+        <Input value="Login" type={"submit"} data-testid="login-form-submit" />
       </Form>
     </>
   );
