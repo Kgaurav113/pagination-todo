@@ -1,11 +1,16 @@
 
 import './App.css';
-import { Navbar } from './components/Navbar';
+import { Button } from './components/Button';
+import { Links } from './components/Links';
+import { Logo } from './components/Logo';
+
 
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
+    <div className="App" style={{display:"flex"}}>
+    <Logo/>
+    <Links/>
+    <Button/>
     </div>
   );
 }
