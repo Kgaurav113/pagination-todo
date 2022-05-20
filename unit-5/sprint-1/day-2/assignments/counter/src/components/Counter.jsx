@@ -8,11 +8,15 @@ export const Counter = () => {
   const decrementCount = () => {
     setcount(count -1);
   };
+  const doubleCount =()=>{
+    setcount(count*2);
+  }
   return (
     <div>
-      <h1>Counter:{count}</h1>
+      <h1  style={{color:`${count%2===0?"green":"red"}`}}>Counter:{count}</h1>
       <button onClick={increamentCount}>Increment</button>
       <button onClick={decrementCount}>Increment</button>
+      <button onClick={doubleCount}>double</button>
     </div>
   );
 };
