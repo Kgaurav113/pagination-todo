@@ -5,11 +5,14 @@ export const Counter = () => {
   const increamentCount = () => {
     setcount(count + 1);
   };
+  const decrementCount = () => {
+    setcount(count -1);
+  };
   return (
     <div>
       <h1>Counter:{count}</h1>
       <button onClick={increamentCount}>Increment</button>
-      <button>Decrement</button>
+      <button onClick={decrementCount}>Increment</button>
     </div>
   );
 };
