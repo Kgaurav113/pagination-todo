@@ -1,13 +1,15 @@
 import React from 'react'
-import Todo from './components/Todo'
-
+// import Todo from './components/Todo'
+// import { Card } from './components/Card';
+import Carddetails from './components/Carddetails';
  const App = () => {
   return (
-    <div style={{backgroundColor:"blue"}}>
+    <div>
 
 
-<Todo/>
+{/* <Todo/> */}
 
+<Carddetails/>
 
 
 

@@ -1,0 +1,30 @@
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    width: 50%;
+background-color:orange;
+  
+}
+.card div {
+    
+    height: 400px;
+    padding:30px;
+
+}
+.left p{
+    font-size: 25px;
+}
+.left h1{
+    font-size: 45px;
+}
+.right div{
+    height: 100%;
+}
+.fir img{
+    width: 71%;
+    height:30%
+}
