@@ -18,6 +18,7 @@ background-color:orange;
 .left p{
     font-size: 25px;
 }
+
 .left h1{
     font-size: 45px;
 }
@@ -27,4 +28,8 @@ background-color:orange;
 .fir img{
     width: 71%;
     height:30%
+}
+.sec img{
+    width: 70%;
+    height: 30%;
 }

@@ -6,7 +6,8 @@ export const Card = (props) => {
     <div className={styles.card}>
       <div className={styles.left}>
         <p>{props.data}</p>
-        <p>{props.heading}</p>
+        <div style={{backgroundColor:"black" ,height:"40px",  color:"white"}}><p>{props.heading}</p></div>
+        
         <h1>{props.subheading}</h1>
         <p>{props.devices}</p>
       </div>
