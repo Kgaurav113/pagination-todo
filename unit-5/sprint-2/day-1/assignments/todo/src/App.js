@@ -1,15 +1,13 @@
-import { Todo } from './components/Todo';
-import './App.css';
-import Pagination from '@material-ui/lab/Pagination';
+import * as React from "react";
+import Pagination from "@mui/material/Pagination";
+import Stack from "@mui/material/Stack";
+import { Todo } from "./components/Todo";
 
-function App() {
+export default function BasicPagination() {
   return (
-    <div className="App">
-     <Todo />
-     < Pagination count={5}/>
-    </div>
+    <Stack spacing={10}>
+      <Todo />
+      <Pagination count={5} />
+    </Stack>
   );
 }
-
-export default App;
-
